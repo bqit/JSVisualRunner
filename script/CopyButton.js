@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function showTooltip(button, message = "Copied!", duration = 600) {
     const tip = document.createElement("div");
-    if(message == "Copied!") tip.className = "jsvr-tooltip";
+    if(message == "Codice copiato!") tip.className = "jsvr-tooltip";
     else tip.className = "jsvr-tooltip-failed";
     tip.textContent = message;
     document.body.appendChild(tip);
