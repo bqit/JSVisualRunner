@@ -66,9 +66,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const success = await copyToClipboard(text);
       if (success) {
-        showTooltip(button, "Copied!");
+        showTooltip(button, "Codice copiato!");
       } else {
-        showTooltip(button, "Copy failed");
+        showTooltip(button, "Copia fallita");
       }
     });
   });
